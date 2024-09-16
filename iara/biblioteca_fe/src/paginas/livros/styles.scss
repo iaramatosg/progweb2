@@ -1,0 +1,16 @@
+#livros {
+  #acao {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #livros-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+    .card {
+      width: auto !important;
+    }
+  }
+}
